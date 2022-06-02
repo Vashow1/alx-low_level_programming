@@ -1,4 +1,9 @@
 #include<stdio.h>
+/**
+ * main - print generic statement
+ *
+ * Return: 0 after printing the function
+ */
 int main(void)
 {
 	/*string initialisation*/
