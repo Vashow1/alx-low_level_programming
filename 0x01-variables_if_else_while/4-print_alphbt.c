@@ -15,8 +15,11 @@ int main(void)
 
 	while (i < n)
 	{
-		putchar(alphabet[i]);
-		i++;
+		if (alphabet[i] != 'q' || alphabet[i] != 'e')
+		{
+			putchar(alphabet[i]);
+			i++;
+		}
 	}
 	return (0);
 }
