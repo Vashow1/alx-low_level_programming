@@ -10,7 +10,7 @@
 int main(void)
 {
 	int n;
-	char Mystr[] = "Last digit of ";
+	char Mystr[] = "Last digit of";
 	int test;
 
 	srand(time(0));
