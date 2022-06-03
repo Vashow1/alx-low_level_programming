@@ -9,20 +9,15 @@
  */
 int main(void)
 {
-	char alphabet[] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
-	int n = sizeof(alphabet);
-	int i = 0;
-	int j;
+	char alphabet = 'a';
+	char upperAlphabet = 'A';
 
-	while (i < n)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		putchar(alphabet[i]);
-		i++;
+		putchar(alphabet);
 	}
-	for (j = 0; j < n; j++)
-	{
-		putchar(toupper(alphabet[j]));
-	}
+	for (upperAlphabet = 'A'; upperAlphabet <= 'Z'; upperAlphabet++)
+		putchar(upperAlphabet);
 	putchar('\n');
 	return (0);
 }
