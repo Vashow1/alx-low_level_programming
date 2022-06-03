@@ -9,18 +9,14 @@
  */
 int main(void)
 {
-	char alphabet[] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '\n'};
-	int n = sizeof(alphabet);
-	int i = 0;
+	char alphabet = 'a';
 
-	while (i < n)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		if (alphabet[i] == 'q' || alphabet[i] == 'e')
-		{
-			i++;
-		}
-		putchar(alphabet[i]);
-		i++;
+		if (alphabet == 'q' || alphabet == 'e')
+			alphabet++;
+		putchar(alphabet);
 	}
+	putchar('\n');
 	return (0);
 }
