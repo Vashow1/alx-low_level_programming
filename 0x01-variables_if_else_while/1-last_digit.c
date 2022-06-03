@@ -26,7 +26,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%s %i is %i and is \n", Mystr, n, test);
+		printf("%s %i is %i and is 0\n", Mystr, n, test);
 	}
 	return (0);
 }
