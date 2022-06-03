@@ -9,13 +9,11 @@
  */
 int main(void)
 {
-	char alphabet[] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
-	int n = sizeof(alphabet) - 1;
-
-	while (n > 0)
+	char alphabet = 'z';
+	
+	for (alphabet = 'z'; alphabet >= 'a'; alphabet--)
 	{
-		putchar(alphabet[n]);
-		n--;
+		putchar(alphabet);
 	}
 	putchar('\n');
 	return (0);
