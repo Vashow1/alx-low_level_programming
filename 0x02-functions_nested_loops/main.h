@@ -11,3 +11,12 @@ int printstr(char sampleStr[], int sizeofString)
 	putchar('\n');
 	return (0);
 }
+void print_alphabet(void)
+{
+	char alphabet = 'a';
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	{
+		putchar(alphabet);
+	}
+	putchar('\n');
+}
