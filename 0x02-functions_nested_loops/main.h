@@ -7,5 +7,4 @@ void printstr(char sampleStr[], int sizeofString)
 		putchar(sampleStr[j]);
 		j++;
 	}
-	putchar('\n');
 }
