@@ -1,4 +1,3 @@
-#include <stdio.h>
 int printstr(char sampleStr[], int sizeofString)
 {
 	int j = 0;
@@ -12,7 +11,7 @@ int printstr(char sampleStr[], int sizeofString)
 	putchar('\n');
 	return (0);
 }
-void print_alphabet(void)
+void print_alphabet()
 {
 	char alphabet = 'a';
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
