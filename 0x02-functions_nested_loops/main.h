@@ -1,4 +1,4 @@
-void printstr(char sampleStr[], int sizeofString)
+int printstr(char sampleStr[], int sizeofString)
 {
 	int j = 0;
 
