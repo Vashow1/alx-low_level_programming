@@ -7,8 +7,9 @@
  */
 int main(void)
 {
-	char exercise1[] = "_putchar\n";
+	char exercise1[] = "_putchar";
+	int sizing = sizeof(exercise1);
 
-	printstr(exercise1);
+	printstr(exercise1, sizing);
 	return (0);
 }

@@ -1,11 +1,11 @@
-void printstr(char sampleStr[])
+void printstr(char sampleStr[], int sizeofString)
 {
-	int i = sizeof(sampleStr);
 	int j = 0;
 
-	while (j < i)
+	while (j < sizeofString)
 	{
 		putchar(sampleStr[j]);
 		j++;
 	}
+	putchar('\n');
 }
