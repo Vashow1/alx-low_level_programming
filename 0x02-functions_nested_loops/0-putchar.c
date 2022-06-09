@@ -1,7 +1,5 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-#include <ctype.h>
+#include "main.h"
 /**
  * main - prints alphabet in lower case
  *
@@ -9,14 +7,8 @@
  */
 int main(void)
 {
-	char printstr[] = "_putchar\n";
-	int i = sizeof(printstr);
-	int j = 0;
+	char exercise1[] = "_putchar\n";
 
-	while (j < i)
-	{
-		putchar(printstr[j]);
-		j++;
-	}
+	printstr(exercise1);
 	return (0);
 }
