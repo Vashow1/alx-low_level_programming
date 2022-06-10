@@ -1,3 +1,10 @@
+#include <unistd.h>
+
+int _putchar( char c )
+{
+	return (write(1, &c, 1));
+}
+
 int printstr(char sampleStr[], int sizeofString)
 {
 	int j = 0;
@@ -5,10 +12,10 @@ int printstr(char sampleStr[], int sizeofString)
 
 	while (j < sizeofString)
 	{
-		putchar(sampleStr[j]);
+		_putchar(sampleStr[j]);
 		j++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
 
@@ -18,7 +25,7 @@ void print_alphabet()
 
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		putchar(alphabet);
+		_putchar(alphabet);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
