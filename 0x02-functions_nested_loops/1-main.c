@@ -1,15 +1,11 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - prints alphabet in lower case
  *
  * Return: 0 after looping through successfully
  */
-int main(void)
+int main()
 {
-	char exercise1[] = "_putchar";
-	int sizing = sizeof(exercise1);
-
-	printstr(exercise1, sizing);
+	print_alphabet();
 	return (0);
 }
