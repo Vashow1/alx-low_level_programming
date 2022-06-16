@@ -5,7 +5,7 @@
  *
  * Return: 1 or 0 or -1 dependig on test value
  */
-int _abs(int n);
+int _abs(int n)
 {
 	if (n > 0)
 	{
