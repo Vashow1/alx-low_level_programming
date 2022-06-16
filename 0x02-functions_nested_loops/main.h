@@ -1,4 +1,6 @@
 #include "holberton.h"
+int printstr(char sampleStr[], int sizeofString);
+void print_alphabet();
 #ifndef MAIN
 #define MAIN
 
