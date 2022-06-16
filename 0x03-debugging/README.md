@@ -1,2 +1,2 @@
-# alx-low_level_programming
-Fulfill c assignments
+#0x03. C - Debugging
+Fulfill c -debuging assignments
