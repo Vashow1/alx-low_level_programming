@@ -1,10 +1,4 @@
-/*
- * File: 100-atoi.c
- * Auth: Brennan D Baraban
- */
-
-#include "holberton.h"
-
+#include "main.h"
 /**
  * _atoi - Converts a string to an integer.
  * @s: The string to be converted.
