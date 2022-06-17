@@ -4,7 +4,7 @@
  * @size: int which determines the size of the triangle
  *
  */
-void print_triangle(int size);
+void print_triangle(int size)
 {
 	int base, index;
 

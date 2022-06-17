@@ -19,7 +19,7 @@ void print_square(int size)
 			}
 			if (height == size - 1)
 			{
-				continue
+				continue;
 			}
 			_putchar('\n');
 		}

@@ -3,7 +3,7 @@
  * more_numbers - prints 10x the numbers, from 0 to 9, followed by a new line.
  *
  */
-void more_numbers(void);
+void more_numbers(void)
 {
 	int digit;
 	int count;
@@ -17,6 +17,6 @@ void more_numbers(void);
 				_putchar((digit % 10) + '0');
 			}
 		}
-		_putchar('\n')
+		_putchar('\n');
 	}
 }

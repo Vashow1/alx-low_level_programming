@@ -6,7 +6,7 @@
  *
  * Return: 1 or 0 depending if char is upper or not
  */
-int mul(int a, int b);
+int mul(int a, int b)
 {
 	return (a * b);
 }
