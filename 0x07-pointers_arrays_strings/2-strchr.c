@@ -1,7 +1,4 @@
 #include "main.h"
-#include <stddef.h>
-#include <string.h>
-
 
 /**
  * _strchr - Returns a pointer to
@@ -9,8 +6,8 @@
  * or NULL if the character is not found.
  * @s: The string to be searched for c.
  * @c: The character to be searched
- * 
- * Return: s or null if the character is not found. 
+ *
+ * Return: s or null if the character is not found.
  */
 
 char *_strchr(char *s, char c)
