@@ -5,7 +5,7 @@
  * which consist only of bytes from accept
  * @s: string parsed to be worked on
  * @accept: values to be searched for
- * 
+ *
  * Return: number of of occurences of accept values in s
  */
 
@@ -24,6 +24,6 @@ unsigned int _strspn(char *s, char *accept)
 			}
 		}
 	}
-	
+
 	return (count);
 }
