@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stddef.h>
+#include <string.h>
+
 
 /**
  * _strchr - Returns a pointer to
@@ -13,15 +16,14 @@
 char *_strchr(char *s, char c)
 {
 	unsigned int i;
-	unsigned int n = strlen(s);
 
-	for (i = 0; i < n; i++)
+	for (i = 0; s[i] >= '\0'; i++)
 	{
-		if (*(s + i) == c)
+		if (s[i] == c)
 		{
 			return (s + i);
 		}
 	}
 
-	return NULL;
+	return ('\0');
 }
