@@ -2,8 +2,8 @@
 
 /**
  * _pow_recursion - calculates the value of x raised to the power of y
- * x: the value to be raised. 
- * y: the power. 
+ * @x: the value to be raised.
+ * @y: the power.
  *
  * Return: the value of x raised to the power of y
  */
