@@ -2,12 +2,13 @@
 /**
  * is_prime_number - checks whether a number is prime
  * @n: number to be checked
- * 
- * return: 1 if prime and 0 if not. 
+ *
+ * Return: 1 if prime and 0 if not.
  */
 int is_prime_number(int n)
 {
 	int divisor = 2;
+
 	if (n <= 1)
 	{
 		return (0);
@@ -24,7 +25,7 @@ int is_prime_number(int n)
  * @num: the number to be checked
  * @divisor: self explanatory
  *
- * return: 0 if number is divisible and 1 if not. 
+ * Return: 0 if number is divisible and 1 if not.
  */
 
 int divisible(int num, int divisor)
@@ -33,11 +34,9 @@ int divisible(int num, int divisor)
 	{
 		return (0);
 	}
-	
 	if (divisor == num / 2)
 	{
 		return (1);
 	}
-
-	return(divisible(num, divisor + 1));
+	return (divisible(num, divisor + 1));
 }
