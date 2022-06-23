@@ -1,5 +1,10 @@
 #include "main.h"
-
+/**
+ * is_prime_number - checks whether a number is prime
+ * @n: number to be checked
+ * 
+ * return: 1 if prime and 0 if not. 
+ */
 int is_prime_number(int n)
 {
 	int divisor = 2;
@@ -13,6 +18,14 @@ int is_prime_number(int n)
 	}
 	return (divisible(n, divisor));
 }
+
+/**
+ * divisible - checks if a number is divisible by the divisor
+ * @num: the number to be checked
+ * @divisor: self explanatory
+ *
+ * return: 0 if number is divisible and 1 if not. 
+ */
 
 int divisible(int num, int divisor)
 {
