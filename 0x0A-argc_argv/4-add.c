@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 	int index1, sum, index2;
 
-	for (index1 = 0; index1 < argc; index1++)
+	for (index1 = 1; index1 < argc; index1++)
 	{
 		for (index2 = 0; argv[index1][index2]; index1++)
 		{
