@@ -3,7 +3,6 @@
 
 /**
  * print_dog - prints the variable values
- * 
  * @d: the struct dog being parsed.
  */
 
@@ -13,7 +12,7 @@ void print_dog(struct dog *d)
 	printf("Name: %s\n", d->name);
 	if (d->age == NULL)
 	{
-		printf("Age: (nil)\n", );
+		printf("Age: (nil)\n");
 	}
 	else
 	{
