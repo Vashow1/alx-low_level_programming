@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Erradicating errors in code"
+git commit -m "Redoing code to meet requirements"
 git push
