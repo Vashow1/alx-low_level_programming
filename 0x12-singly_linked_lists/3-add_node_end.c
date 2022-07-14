@@ -5,14 +5,14 @@
  *
  * @head: the head of the list
  * @str: the string to be duplicated
- * Return: aaddress of the  
+ * Return: aaddress of the end node
  */
-
 
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *node = malloc(sizeof(list_t));
 	int len = 0;
+	list_t *tmp;
 	char *nodestring = strdup(str);
 
 	if (node == NULL)
@@ -24,22 +24,27 @@ list_t *add_node_end(list_t **head, const char *str)
 		free(node);
 		return (NULL);
 	}
+	while (str[len])
+	{
+		len++;
+	}
+	node->len = len;
+	node->str = nodestring;
+	node->next = NULL;
+
 	if (*head == NULL)
 	{
 		*head = node;
 	}
-
-	while (head)
+	else
 	{
-		len++;
-		if (head->next == NULL)
+		tmp = *head;
+		while (tmp->next != NULL)
 		{
-			break;
+			tmp = tmp->next;
 		}
-		head->next;
+		tmp->next = node;
+
 	}
-	head->next = node;
-	node->len = len;
-	node->str = ;
-	node->next = NULL;
+	return (node);
 }

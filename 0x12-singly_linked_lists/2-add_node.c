@@ -19,8 +19,8 @@ list_t *add_node(list_t **head, const char *str)
 	{
 		return (NULL);
 	}
-	nodestr = strdup(str);
-	if (nodestr == NULL)
+	nodeStr = strdup(str);
+	if (nodeStr == NULL)
 	{
 		free(node);
 		return (NULL);
@@ -30,7 +30,7 @@ list_t *add_node(list_t **head, const char *str)
 		len++;
 	}
 	node->len = len;
-	node->str = nodestr;
+	node->str = nodeStr;
 	node->next = *head;
 	*head = node;
 	return (node);
