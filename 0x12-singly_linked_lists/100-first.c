@@ -3,7 +3,7 @@
 void __attribute__((constructor)) wow(void);
 
 /**
- * hare - Prints a string before the
+ * wow - Prints a string before the
  *        main function is executed.
  */
 void wow(void)
