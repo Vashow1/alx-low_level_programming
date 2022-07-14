@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Redoing code to meet requirements"
+git commit -m "Redoing..."
 git push
