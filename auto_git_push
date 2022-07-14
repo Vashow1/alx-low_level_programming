@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "First trial of completion of the linked lists project"
+git commit -m "Trying one advanced question the other tricky"
 git push
