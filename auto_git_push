@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Trying one advanced question the other tricky"
+git commit -m "Erradicating errors in code"
 git push
