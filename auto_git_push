@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Updates"
+git commit -m "Creating files for Linked lists project"
 git push
