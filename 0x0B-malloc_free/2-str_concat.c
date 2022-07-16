@@ -1,22 +1,6 @@
 #include "main.h"
 
 /**
- * _strlen - Returns the length of a string.
- * @str: The string to get the length of.
- *
- * Return: The length of @str.
- */
-int _strlen(char *str)
-{
-	int length = 0;
-
-	while (*str)
-		length++;
-
-	return (length);
-}
-
-/**
  * str_concat - concatenates two strings
  *
  * @s1: the first string for concatenation
@@ -28,8 +12,8 @@ int _strlen(char *str)
 
 char *str_concat(char *s1, char *s2)
 {
-	int len1, len2;
-	int index = 0, index2 = 0;
+	int length = 0 ;
+	int index = 0, index1 = 0, index2 = 0;
 	char *combString;
 
 	if (s1 == NULL)
@@ -40,23 +24,27 @@ char *str_concat(char *s1, char *s2)
 	{
 		s2 = "";
 	}
-	len1 = _strlen(s1);
-	len2 = _strlen(s2);
-	combString = malloc(sizeof(char) * (len1 + len2));
+	for (index = 0; s1[index]; index++)
+	{
+		length++;
+	}
+	for (index = 0; s2[index]; index++)
+	{
+		length++;
+	}
+
+	combString = malloc(sizeof(char) * length);
 	if (combString == NULL)
 	{
 		return (NULL);
 	}
-	while (index < len1)
+	for (index1; s1[index1]; index1++)
 	{
-		combString[index] =  s1[index];
-		index++;
+		combString[index1] =  s1[index1];
 	}
-	while (index2 < len2)
+	for (index2; s2[index2]; index2++)
 	{
-		combString[index] = s2[index2];
-		index++;
-		index2++;
+		combString[index1++] = s2[index2];
 	}
 	return (combString);
 }

@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Betty Documentation"
+git commit -m "Fixing errors"
 git push
