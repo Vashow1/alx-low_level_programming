@@ -10,7 +10,7 @@ int _strlen(char *str)
 {
 	int length = 0;
 
-	while (*str++)
+	while (*str)
 		length++;
 
 	return (length);
@@ -18,7 +18,7 @@ int _strlen(char *str)
 
 /**
  * str_concat - concatenates two strings
- * 
+ *
  * @s1: the first string for concatenation
  * @s2: the second string for concatenation
  * Return: pointer that points to a newly allocated space
@@ -30,7 +30,7 @@ char *str_concat(char *s1, char *s2)
 {
 	int len1, len2;
 	int index = 0, index2 = 0;
-	char* combString;
+	char *combString;
 
 	if (s1 == NULL)
 	{
@@ -43,16 +43,16 @@ char *str_concat(char *s1, char *s2)
 	len1 = _strlen(s1);
 	len2 = _strlen(s2);
 	combString = malloc(sizeof(char) * (len1 + len2));
-	if(combString == NULL)
+	if (combString == NULL)
 	{
 		return (NULL);
 	}
-	while(index < len1)
-	{	
+	while (index < len1)
+	{
 		combString[index] =  s1[index];
 		index++;
 	}
-	while(index2 < len2)
+	while (index2 < len2)
 	{
 		combString[index] = s2[index2];
 		index++;

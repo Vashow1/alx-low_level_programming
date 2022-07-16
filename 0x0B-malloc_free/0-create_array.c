@@ -6,7 +6,8 @@
  *
  * @size: the size of the array
  * @c: the specific char
- * Return: NULL if the size = 0 or the function fails and a pointer to the array
+ * Return: NULL if the size = 0
+ * or the function fails and a pointer to the array
  */
 
 
