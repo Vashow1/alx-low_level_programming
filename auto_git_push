@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Redoing..."
+git commit -m "Creating and posting solutions to malloc mandatory exercises."
 git push
