@@ -33,7 +33,6 @@ char *_strdup(char *str)
 	for (index = 0; str[index]; index++)
 	{
 		copy[index] = str[index];
-		index++;
 	}
 	copy[len] = '\0';
 
