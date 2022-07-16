@@ -12,7 +12,7 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	int length = 0 ;
+	int length = 0;
 	int index = 0, index1 = 0;
 	char *combString;
 
