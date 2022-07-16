@@ -33,7 +33,7 @@ char *str_concat(char *s1, char *s2)
 		length++;
 	}
 
-	combString = malloc(sizeof(char) * length);
+	combString = malloc(sizeof(char) * (length + 1));
 	if (combString == NULL)
 	{
 		return (NULL);
