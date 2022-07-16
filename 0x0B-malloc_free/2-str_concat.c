@@ -13,7 +13,7 @@
 char *str_concat(char *s1, char *s2)
 {
 	int length = 0 ;
-	int index = 0, index1 = 0, index2 = 0;
+	int index = 0, index1 = 0;
 	char *combString;
 
 	if (s1 == NULL)
@@ -38,13 +38,13 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	for (index1; s1[index1]; index1++)
+	for (index = 0; s1[index]; index++)
 	{
-		combString[index1] =  s1[index1];
+		combString[index1++] =  s1[index];
 	}
-	for (index2; s2[index2]; index2++)
+	for (index = 0; s2[index]; index++)
 	{
-		combString[index1++] = s2[index2];
+		combString[index1++] = s2[index];
 	}
 	return (combString);
 }
