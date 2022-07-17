@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Creating and putting up solutions to the more_malloc_free exercises"
+git commit -m "Deleting the .exe files and moving the test *main.c files to the tests folder"
 git push
