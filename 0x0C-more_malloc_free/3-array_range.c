@@ -14,7 +14,7 @@ int *array_range(int min, int max)
 	int size;
 	int i;
 
-	if(min > max)
+	if (min > max)
 	{
 		return (NULL);
 	}
@@ -29,4 +29,4 @@ int *array_range(int min, int max)
 		intRange[i] = min++;
 	}
 	return (intRange);
-}
+
