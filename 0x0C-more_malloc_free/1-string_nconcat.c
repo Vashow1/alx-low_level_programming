@@ -29,7 +29,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		lenString++;
 	}
 	lenString += n;
-	newString = (char *)malloc(lenString + 1);
+	newString = (char *)malloc(sizeof(char) * (lenString + 1));
 
 	if (newString == NULL)
 	{
@@ -39,7 +39,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		newString[index] = s1[index];
 	}
-	for (index1 = 0; index1 < n; index1++)
+	for (index1 = 0; s2[index1] && index1 < n; index1++)
 	{
 		newString[index++] = s2[index1];
 	}
