@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Fixing calloc file errors"
+git commit -m "Fixing string_nconcat file errors"
 git push
