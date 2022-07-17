@@ -29,4 +29,4 @@ int *array_range(int min, int max)
 		intRange[i] = min++;
 	}
 	return (intRange);
-
+}
