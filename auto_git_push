@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Fixing errors"
+git commit -m "Creating and putting up solutions to the more_malloc_free exercises"
 git push
