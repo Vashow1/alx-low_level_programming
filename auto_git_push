@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Fixing string_nconcat file errors"
+git commit -m "Creating files in line to the practice of singly linked Lists"
 git push
