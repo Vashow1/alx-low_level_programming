@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Completing the first five assignments in the exercises"
+git commit -m "Emptying the useless files in Testing"
 git push
