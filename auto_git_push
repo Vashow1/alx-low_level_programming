@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Creating files in line to the practice of singly linked Lists"
+git commit -m "Completing the first five assignments in the exercises"
 git push
