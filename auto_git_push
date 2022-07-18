@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Emptying the useless files in Testing"
+git commit -m "Fixing errors in free_listint and free_listint2"
 git push
