@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Fixing errors in free_listint2"
+git commit -m "Completing the last 5 exercises"
 git push
