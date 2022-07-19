@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "correcting the placement of the NULL checker in 7-get_nodeint"
+git commit -m "Trying to change the condition of the while loop in sum_listint"
 git push
