@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "correcting the placement of the assignment of nodeData in pop_listint"
+git commit -m "correcting the placement of the NULL checker in 7-get_nodeint"
 git push
