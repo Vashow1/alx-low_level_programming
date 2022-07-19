@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Changing the return value to correct (int not pointer) in pop_listint"
+git commit -m "correcting the placement of the assignment of nodeData in pop_listint"
 git push
