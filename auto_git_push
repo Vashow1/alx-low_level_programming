@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Fixing the 9-insert_nodeint.c to cater for insertion at index 0;"
+git commit -m "Creating files for bit manipulation exercises"
 git push
